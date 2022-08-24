@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" href="assets/Document.gif" type="image/x-icon">
+    <!--bootstrap imports-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <!--Font Awesome import-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--customcsslink-->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+    <div class="row">
+        <!--sidebar-->
+        <div class="sidebar col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+
+            <div class="sidebox">
+                <div class="row-vertical">
+                    <!--title-->
+
+                    <div class="box1">
+                        <h1 class="text-center title mt-5">E-ATIK</h1>
+                    </div>
+                    <!--logogif-->
+
+                    <div class="box1 animation">
+                        <img class="d-inline-block pt-3" src="assets/Document.gif" alt="Recycle">
+                    </div>
+
+                    <!--description-->
+                    <div class="box1">
+                        <h4 class="description pt-3 px-4">**Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Enim aut fuga iure
+                            expedita fugit eius
+                            saepe dolorem sint sequi vero?
+                        </h4>
+                        <img class="box1" src="assets/Haydesoft_Logo_04.png" alt="" style="width: 235px;
+                        height: 51px;">
+                    </div>
+
+                    <a href="#login" class="hidden btn btn-outline-success rounded-4 customsm w-100">Login</a>
+
+                </div>
+            </div>
+        </div>
+        <!--content-->
+        <div class="content wrapper col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8">
+            <div class="row">
+                <div class="col-sm-12 col-md-1 col-lg-4 col-xl-4 col-xxl-4"></div>
+                <div class="col-sm-12 col-md-10 col-lg-4 col-xl-4 col-xxl-4">
+                    <!--bubbles-->
+                    <section class="sticky">
+                        <div class="bubbles">
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                        </div>
+                    </section>
+                    <div id="login" class="mt-5 container loginbox">
+                        <div class="row-vertical">
+                            <!--login&register-selector-->
+                            <div class="col">
+                                <div class="row">
+                                    <!--login-->
+                                    <div class="col">
+                                        <h3 class="text-white textshadowttl">Login</h3>
+                                        <div class="hrbox textshadowttl"></div>
+                                    </div>
+                                    <!--register-->
+                                    <div class="col">
+                                        <h3 class="text-white textshadowttl">Register</h3>
+                                        <div class="hrbox textshadowttl"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--username-input-->
+                            <div class="col">
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="floatingInput"
+                                        placeholder="name@example.com">
+                                    <label for="floatingInput">Kullanıcı Adı</label>
+                                </div>
+                            </div>
+                            <!--password-input-->
+                            <div class="col">
+                                <div class="form-floating mb-3">
+                                    <input type="password" class="form-control" id="floatingInput"
+                                        placeholder="password">
+                                    <label for="floatingInput">Şifre</label>
+                                </div>
+                            </div>
+
+                            <!--submitbtn-->
+                            <div class="col">
+                                <a class="btn custom w-100 mb-4" href="#">Giriş yap</a>
+                            </div>
+                            <div class="row">
+                                <!--remembermecheckbox-->
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label text-white fw-bold textshadow"
+                                            for="flexCheckDefault">
+                                            Beni Hatırla
+                                        </label>
+                                    </div>
+                                </div>
+                                <!--forgot-password-->
+                                <div class="col">
+                                    <p class="text-white fw-bold textshadow">
+                                        Şifremi <a href="#">Unuttum</a>.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4"></div>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
